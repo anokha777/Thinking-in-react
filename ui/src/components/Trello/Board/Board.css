@@ -1,0 +1,34 @@
+.BoardCss {
+    width: 13em;
+    background-color: rgb(8, 219, 219);
+    height: 8em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    padding: 1em;
+    word-wrap: break-word;
+}
+
+.BoardCss:hover {
+    cursor: pointer;
+    background-color: rgb(12, 146, 146);
+    transition: 0.7s;
+}
+
+.editPen {
+    float: right;
+    margin-right: 0.5em;
+    /* background-color: aliceblue; */
+}
+
+.editPen:hover {
+    color: rgb(196, 196, 196);
+}
+
+.wrapTitlePen {
+    display: flex;
+    flex-direction: row;
+}
+
+.editPenDiv {
+    flex-grow: 10000;
+}

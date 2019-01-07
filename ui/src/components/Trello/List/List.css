@@ -1,0 +1,47 @@
+.boardTitle {
+    color: rgb(36, 63, 15);
+    width: 100%;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: left;
+    background-color: rgb(242, 238, 245);
+    padding: 0.5em;
+}
+
+.listFlex {
+    border-radius: 0.3em;
+    flex-direction: column;
+    margin: 1em;
+    background-color: rgb(162, 163, 165);
+    float: left;
+    margin: 0.5em 1em;
+    padding-top: 0.5em;
+    width: 14em;
+    height: 20em;
+    position: relative;
+}
+
+.listArea {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+.addListButton {
+    /* background-color: aqua; */
+    /* border-radius: 50%; */
+    /* width: 6%; */
+    /* height: 5em; */
+    text-align: center;
+    /* border: 1px; */
+    margin: 2em;
+}
+
+.addCardInput {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0.3em;
+    float: right;
+}
